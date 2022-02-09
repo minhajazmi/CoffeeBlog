@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Open+Sans:wght@400;500&display=swap');
+*{ font-family:'Montserrat', sans-serif;
+    background-color:white;
+}
+.Main{
+    background-image:url(https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?cs=srgb&dl=pexels-juan-pablo-serrano-arenas-894695.jpg&fm=jpg);
+    background-size:cover;
+    background-position:center;
+    padding-left: 45px; 
+    padding-bottom: 30px; 
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.Brewing, .Gears, .Beans, .Study, h1, h2, p{
+    background-color:transparent;
+}
+h1{
+    color: whitesmoke;
+    font-size: 25px;
+}
+h2 {color: black;
+    font-size:18;}
+#site-top-box{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: -200px;
+    position: sticky;
+    top: 0%;
+}
+.logo{
+    margin-top: 20px;
+    padding-left: 20px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#logos{
+    width: 160px;
+    margin: 0%;
+    border: none;
+}
+.slogan{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.row{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+#slogan{
+    text-align: center;
+    padding: 0%;
+    margin-bottom: 0%;
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.slogan{
+    margin: auto;
+    padding-left: 170px;
+}
+.menu{
+    display: flex;
+}
+ .menu li a{
+text-transform:uppercase;
+text-decoration: none;
+font-size:14px;
+color:black;
+ }
+ .menu li{
+     margin-right: 20px;
+     list-style-type: none;
+     
+ }
+ .menu li:hover{
+     text-decoration: gray underline;
+ }
+ .navigation{
+     text-align: right;
+     margin-left:auto;
+     padding-top: 50px;
+ }
+ .Article{
+    margin: 0;
+    padding: 0;
+    width: 370px;
+    border: 2px solid burlywood;
+    background-color:rgba(252, 252, 252, 0.9) ;
+    border-radius: 15px;
+    justify-content: space-between;
+    text-align:center;
+    padding: 10px;
+    display: inline-block;
+   
+}
+.fit-picture{
+    border:3px solid rgba(236, 240, 183, 0.877);
+    float: center;
+    width:  340px;
+    height: 300px;
+    object-fit: cover;
+}
+#text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Article:hover{
+    background-color:rgba(160, 157, 157, 0.808);
+}
+button{
+    width: 100px;
+   height: 50;
+   background-color: burlywood;
+   white-space: nowrap;
+}
+ button:hover{
+	border-radius: 0px;
+ background-color:brown;
+ color:rgb(172, 159, 108);
+ transition: 0.5s;
+ }
+footer{
+    padding: 20px;
+    color:black;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#newsletter{
+    display: inline-table;
+}
+
+#newsletter-name{
+    color:Black;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.button-news{
+    background-color: transparent;
+}

@@ -1,0 +1,82 @@
+
+*{ font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color:white;
+}
+.containercontainer-site-top{
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#slogan{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;  
+}
+.logo{
+    cursor: pointer;
+    border: none;
+    padding:0 0%;    
+}
+.navigation{
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+.nav li{
+    display: inline-block;
+    padding: 0 10px;
+    align-items:right;
+}
+    
+
+.main{
+    padding:0 15%;
+} 
+.article{
+    margin: 0;
+    padding: 0;
+    width: 300;
+    border: 2px solid burlywood;
+    background-color:rgba(252, 252, 252, 0.9) ;
+    border-radius: 15px;
+    text-align:center;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+img{width: 180px;
+    border:3px solid rgba(236, 240, 183, 0.877);
+}
+.article:hover{
+    background-color:rgba(160, 157, 157, 0.808) ;
+}
+button{
+    width: 100px;
+height: 50;
+background-color: burlywood ;
+}
+ button:hover{
+     border-radius: 20px;
+     background-color:brown;
+     color:cornsilk;
+     transition: 0.5s;
+
+ }
+footer{
+    padding: 20px;
+    color:snow;
+    background-color: slategrey;
+    text-align: center;
+}
